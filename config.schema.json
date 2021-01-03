@@ -1,0 +1,21 @@
+{
+    "pluginAlias": "RinnaiControlR",
+    "pluginType": "platform",
+    "singular": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "title": "Email",
+                "type": "string",
+                "format": "email",
+                "required": true
+            },
+            "password": {
+                "title": "Password",
+                "type": "string",
+                "required": true
+            }
+        }
+    }
+}
